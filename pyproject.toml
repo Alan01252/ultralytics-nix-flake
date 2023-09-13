@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yolo-test"
+version = "0.1.0"
+description = ""
+authors = ["Alan Hollis <me@alanhollis.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ultralytics = "^8.0.173"
+opencv-python = "4.8.0.76"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
