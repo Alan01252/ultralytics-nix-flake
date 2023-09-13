@@ -7,7 +7,7 @@ authors = ["Alan Hollis <me@alanhollis.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 ultralytics = "^8.0.173"
-opencv-python = "4.8.0.76"
+opencv-python = { git = "https://github.com/jasonjiang8866/opencv-python-cuda.git", branch="4.x.cudafix" }
 
 [tool.poetry.dev-dependencies]
 
